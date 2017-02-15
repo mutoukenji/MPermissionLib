@@ -1,6 +1,13 @@
 # Android M 权限请求类库
 本类库中包含一个在Android M及以下版本中实现权限请求的Activity基类
 
+## 使用方法
+### gradle
+在dependencies中加入
+compile 'me.yaog:mpermissionlib:0.0.1'
+### 自行编译
+下载mpermissionlib/src/main/java/me/yaog/mpermissionlib/MActivity.java
+
 ## 用法示例
 自定义Activity继承MActivity，
 在需要获取文件读写权限时，执行如下方法
